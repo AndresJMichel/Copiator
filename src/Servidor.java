@@ -9,8 +9,8 @@
 
 	public class Servidor {
 
-	  public final static int SOCKET_PORT = 13267;  // you may change this
-	  public final static String FILE_TO_SEND = "c:/temp/source.pdf";  // you may change this
+	  public final static int SOCKET_PORT = 80;  // you may change this
+	  public final static String FILE_TO_SEND = "/Users/Andres/Documents/Test/enviados/tipos.xlsx";  // you may change this
 
 	  public static void main (String [] args ) throws IOException {
 	    FileInputStream fis = null;
